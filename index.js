@@ -15,7 +15,7 @@ function socketStateSource() {
           throw new Error('Could not find ' + handler + ' event handler');
         }
 
-        this.socket.on(event, this[handler]);
+        this.socket.on(event, this[handler].bind(this));
       }, this);
     }
   };

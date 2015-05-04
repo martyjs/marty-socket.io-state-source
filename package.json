@@ -1,6 +1,6 @@
 {
   "name": "marty-socket.io-state-source",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A socket.io state source for Marty",
   "main": "index.js",
   "scripts": {
